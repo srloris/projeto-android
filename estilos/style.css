@@ -28,6 +28,7 @@
 body{
     font-family: var(--font-padrao);
     background-color: var(--cor1);
+    box-sizing: border-box;
 }
 p {
     margin: 1.1rem 0;
@@ -89,7 +90,7 @@ main {
     background-color: white;
     padding: 1.5em;
     margin: 0 auto;
-    min-width: 400px;
+    min-width: 300px;
     max-width: 800px;
 }
 main.principal {
